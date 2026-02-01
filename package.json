@@ -1,0 +1,29 @@
+{
+  "name": "git-cleanup-cli",
+  "version": "1.0.0",
+  "description": "CLI tool to clean up git repos - prune stale branches, find large files, remove cruft",
+  "main": "src/index.js",
+  "bin": {
+    "git-cleanup": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node src/index.js --help"
+  },
+  "keywords": [
+    "git",
+    "cleanup",
+    "branches",
+    "cli",
+    "developer-tools"
+  ],
+  "author": "Han Kim",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Arephan/git-cleanup"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
