@@ -1,5 +1,8 @@
 # git-cleanup 🧹
 
+[![npm version](https://img.shields.io/npm/v/git-cleanup-cli.svg)](https://www.npmjs.com/package/git-cleanup-cli)
+[![npm downloads](https://img.shields.io/npm/dm/git-cleanup-cli.svg)](https://www.npmjs.com/package/git-cleanup-cli)
+
 A CLI tool to clean up your git repositories. Delete merged branches, find stale branches, remove branches with deleted remotes, and identify large files in your git history.
 
 ## Installation
